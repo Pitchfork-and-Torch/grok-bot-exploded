@@ -1,0 +1,37 @@
+{
+  "name": "grok-bot-exploded",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "stamp": "node scripts/stamp-ld.mjs",
+    "check": "node scripts/check-content.mjs",
+    "prebuild": "node scripts/stamp-ld.mjs && node scripts/check-content.mjs",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "@fontsource/inter-tight": "^5.2.5",
+    "@react-three/drei": "^10.0.6",
+    "@react-three/fiber": "^9.1.2",
+    "@react-three/postprocessing": "^3.0.4",
+    "gsap": "^3.12.7",
+    "postprocessing": "^6.36.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.175.0",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/three": "^0.175.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "playwright-core": "^1.63.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}

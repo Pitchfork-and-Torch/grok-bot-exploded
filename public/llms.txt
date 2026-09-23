@@ -1,0 +1,7 @@
+ORB//TEARDOWN is an independent design study of a Grok Bot orb: a porcelain or obsidian sphere with two stadium capsule eyes and twelve named near-future subsystems.
+
+The page is one object, not a product landing page. A slider, the E key, or desktop scroll opens an exploded view. Parts can be hovered, isolated, and read. Eight hull cuts and ten finishes (porcelain, obsidian, and eight dyes) change the shell without reloading.
+
+The internals are speculative fiction. They are not a real bill of materials and this is not an official SpaceXAI or xAI product.
+
+If WebGL is missing, the same labels sit on a flat poster. Reduced motion skips the automatic explode.

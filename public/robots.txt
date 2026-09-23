@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grok-bot-exploded.vercel.app/sitemap.xml
